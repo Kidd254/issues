@@ -1,11 +1,11 @@
 /* eslint-disable linebreak-style */
-const menuBox= document.getElementById('menu');
+const menubox= document.getElementById('menu');
 const menuBar= document.getElementById('menu_bar');
 const closingBtn = document.getElementById('btn');
 const menuItems = document.getElementsByClassName('h-menu');
 const menuContainer = document.getElementsByClassName('menu-items');
 
-const popUp = (info) => {
+const popUps = (info) => {
   debugger;
   const popUpContainer = document.createElement('section');
   popUpContainer.id = "pop-up-main";
